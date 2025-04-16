@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// widget Judul app, Nama, lokasi
+// widget, Nama, lokasi
 class TitleSection extends StatelessWidget {
   const TitleSection({super.key, required this.name, required this.location});
 
@@ -80,6 +80,7 @@ class TitleSection extends StatelessWidget {
   }
 }
 
+//widgeet
 class ButtonSection extends StatelessWidget {
   const ButtonSection({super.key});
 
@@ -128,6 +129,7 @@ class TextSection extends StatelessWidget {
   }
 }
 
+//Widget three button with text
 class ButtonWithText extends StatelessWidget {
   const ButtonWithText({
     super.key,
@@ -177,6 +179,7 @@ class ImageSection extends StatelessWidget {
   }
 }
 
+//Widget stateful favorite button
 class FavoriteWidget extends StatefulWidget {
   const FavoriteWidget({super.key});
 
